@@ -136,7 +136,7 @@ __END__
 
 =head1 NAME
 
-Tags::HTML::Stars - Class for random day generation.
+Tags::HTML::Stars - Tags helper for stars evaluation.
 
 =head1 SYNOPSIS
 

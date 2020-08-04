@@ -1,5 +1,5 @@
 NAME
-    Tags::HTML::Stars - Class for random day generation.
+    Tags::HTML::Stars - Tags helper for stars evaluation.
 
 SYNOPSIS
      use Tags::HTML::Stars;
