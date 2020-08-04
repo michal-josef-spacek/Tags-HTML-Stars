@@ -10,8 +10,6 @@ use MIME::Base64;
 use Readonly;
 
 # Constants.
-Readonly::Hash my %LANG => (
-);
 Readonly::Scalar our $STAR_FULL_FILENAME => 'Star*.svg';
 Readonly::Scalar our $STAR_HALF_FILENAME => 'Star-.svg';
 Readonly::Scalar our $STAR_NOTHING_FILENAME => 'Star½.svg';
@@ -42,9 +40,6 @@ sub new {
 
 	# Create object.
 	my $self = bless {}, $class;
-
-	# Languages.
-	$self->{'lang'} = \%LANG;
 
 	# Public image directory.
 	$self->{'public_image_dir'} = undef;
