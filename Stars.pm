@@ -11,7 +11,6 @@ use Readonly;
 
 # Constants.
 Readonly::Hash my %LANG => (
-	'title' => 'Stars',
 );
 Readonly::Scalar our $STAR_FULL_FILENAME => 'Star*.svg';
 Readonly::Scalar our $STAR_HALF_FILENAME => 'Star-.svg';
@@ -50,10 +49,6 @@ sub new {
 	# Languages.
 	$self->{'lang'} = \%LANG;
 
-	# Page flag.
-	# TODO Remove
-	$self->{'page'} = 1;
-
 	# Public image directory.
 	$self->{'public_image_dir'} = undef;
 
@@ -84,48 +79,6 @@ sub new {
 sub process {
 	my ($self, $stars_hr) = @_;
 
-	# Page mode.
-	# TODO Remove
-	if ($self->{'page'}) {
-
-		# Create styles.
-		$self->{'css'}->put(
-			['s', '.okay'],
-			['d', 'background', '#9f9'],
-			['e'],
-			['s', '.warning'],
-			['d', 'background', '#ff9'],
-			['e'],
-			['s', '.alert'],
-			['d', 'background', '#f99'],
-			['e'],
-			['s', '.offline'],
-			['d', 'color', '#999'],
-			['e'],
-		);
-		my $style = $self->{'css'}->flush;
-
-		# Begin of page.
-		$self->{'tags'}->put(
-			['b', 'html'],
-			['b', 'head'],
-			['b', 'meta'],
-			['a', 'http-equiv', 'Content-Type'],
-			['a', 'content', 'text/html; charset=UTF-8'],
-			['e', 'meta'],
-			# XXX Refresh?
-			['b', 'title'],
-			['d', $self->{'lang'}->{'title'}],
-			['e', 'title'],
-			['b', 'style'],
-			['a', 'type', 'text/css'],
-			['d', $style],
-			['e', 'style'],
-			['e', 'head'],
-			['b', 'body'],
-		);
-	}
-
 	# Main stars.
 	$self->{'tags'}->put(
 		['b', 'div'],
@@ -151,15 +104,6 @@ sub process {
 	$self->{'tags'}->put(
 		['e', 'div'],
 	);
-
-	# End of page.
-	# TODO Remove.
-	if ($self->{'page'}) {
-		$self->{'tags'}->put(
-			['e', 'body'],
-			['e', 'html'],
-		);
-	}
 
 	return;
 }
