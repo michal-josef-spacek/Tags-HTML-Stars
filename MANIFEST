@@ -16,7 +16,7 @@ MANIFEST			This list of files
 META.yml
 README
 Stars.pm
-t/Tags-HTML5-Stars/01-use.t
-t/Tags-HTML5-Stars/02-version.t
-xt/Tags-HTML5-Stars/01-pod_coverage.t
-xt/Tags-HTML5-Stars/02-pod.t
+t/Tags-HTML-Stars/01-use.t
+t/Tags-HTML-Stars/02-version.t
+xt/Tags-HTML-Stars/01-pod_coverage.t
+xt/Tags-HTML-Stars/02-pod.t

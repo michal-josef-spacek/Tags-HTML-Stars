@@ -1,4 +1,4 @@
-package Tags::HTML5::Stars;
+package Tags::HTML::Stars;
 
 use strict;
 use warnings;

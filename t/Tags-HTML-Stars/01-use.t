@@ -7,8 +7,8 @@ use Test::NoWarnings;
 BEGIN {
 
 	# Test.
-	use_ok('Tags::HTML5::Stars');
+	use_ok('Tags::HTML::Stars');
 }
 
 # Test.
-require_ok('Tags::HTML5::Stars');
+require_ok('Tags::HTML::Stars');
