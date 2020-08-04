@@ -85,7 +85,7 @@ sub process {
 			(
 				$self->{'star_width'}
 				? (
-				['a', 'style', 'width: '.$self->{'star_width'}],
+				['a', 'style', 'width: '.$self->{'star_width'}.';'],
 				) : (),
 			),
 			['a', 'src', $image_src],
