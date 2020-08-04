@@ -43,9 +43,6 @@ sub new {
 	# Create object.
 	my $self = bless {}, $class;
 
-	# 'CSS::Structure' object.
-	$self->{'css'} = undef;
-
 	# Languages.
 	$self->{'lang'} = \%LANG;
 
@@ -64,11 +61,6 @@ sub new {
 	# Check to 'Tags' object.
 	if (! $self->{'tags'} || ! $self->{'tags'}->isa('Tags::Output')) {
 		err "Parameter 'tags' must be a 'Tags::Output::*' class.";
-	}
-
-	# Check to 'CSS::Structure' object.
-	if (! $self->{'css'} || ! $self->{'css'}->isa('CSS::Structure::Output')) {
-		err "Parameter 'css' must be a 'CSS::Structure::Output::*' class.";
 	}
 
 	# Object.
