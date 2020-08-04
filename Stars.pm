@@ -47,7 +47,7 @@ sub new {
 	# Star width (300px).
 	$self->{'star_width'} = undef;
 
-	# 'Tags' object.
+	# 'Tags::Output' object.
 	$self->{'tags'} = undef;
 
 	# Process params.
