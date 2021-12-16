@@ -1,4 +1,6 @@
 0.03
+ - Rewrite to use Tags::HTML. (Change in api, parameter 'tags' is
+   optional).
 
 0.02 2020-08-05T12:26:37+02:00
  - Fix test dependencies.

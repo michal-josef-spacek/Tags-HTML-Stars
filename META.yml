@@ -32,6 +32,7 @@ requires:
   List::Util: 0
   MIME::Base64: 0
   Readonly: 0
+  Tags::HTML: 0.02
   perl: 5.8.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Tags-HTML-Stars
