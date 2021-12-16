@@ -1,11 +1,13 @@
 TODO
 ====
 2. Dalsi testy.
-3. Prepsat na Tags::HTML
-4. Pridat podporu CSS. (hlavni CSS id a dalsi?)
+4. Pridat podporu CSS?
 5.
 
 Applied
 =======
 1. Odstranit 'page' parametr a veci kolem toho.
 OK [20200730] skim
+
+3. Prepsat na Tags::HTML
+OK [20211216] skim
