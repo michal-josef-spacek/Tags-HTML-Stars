@@ -1,4 +1,5 @@
 0.03
+ - Add test for star with explicit width.
  - Rewrite to use Tags::HTML. (Change in api, parameter 'tags' is
    optional).
 
