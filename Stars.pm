@@ -33,7 +33,7 @@ Readonly::Scalar our $IMG_STAR_NOTHING => encode_base64(<<'END', '');
 </svg>
 END
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Constructor.
 sub new {
@@ -342,6 +342,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
