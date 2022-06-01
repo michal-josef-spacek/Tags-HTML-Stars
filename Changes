@@ -1,5 +1,6 @@
 0.04
  - Fix DEPENDENCIES section in doc.
+ - Move bugtracker to github.
 
 0.03 2022-05-09T22:54:45+02:00
  - Add test for star with explicit width.
