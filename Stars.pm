@@ -312,7 +312,8 @@ L<Class::Utils>,
 L<Error::Pure>,
 L<List::Utils>,
 L<MIME::Base64>,
-L<Readonly>.
+L<Readonly>,
+L<Tags::HTML>.
 
 =head1 SEE ALSO
 

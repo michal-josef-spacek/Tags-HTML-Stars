@@ -162,7 +162,8 @@ EXAMPLE2
      # </div>
 
 DEPENDENCIES
-    Class::Utils, Error::Pure, List::Utils, MIME::Base64, Readonly.
+    Class::Utils, Error::Pure, List::Utils, MIME::Base64, Readonly,
+    Tags::HTML.
 
 SEE ALSO
     Number::Stars
