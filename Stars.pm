@@ -195,6 +195,8 @@ Returns undef.
 
 =head1 EXAMPLE1
 
+=for comment filename=stars.pl
+
  use strict;
  use warnings;
 
@@ -234,6 +236,8 @@ Returns undef.
  # </div>
 
 =head1 EXAMPLE2
+
+=for comment filename=percent_stars.pl
 
  use strict;
  use warnings;

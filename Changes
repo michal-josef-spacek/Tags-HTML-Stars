@@ -1,4 +1,5 @@
 0.05
+ - Rename examples in examples/ directory to better names.
 
 0.04 2022-06-01T12:31:02+02:00
  - Fix DEPENDENCIES section in doc.
