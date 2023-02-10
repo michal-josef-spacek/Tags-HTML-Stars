@@ -1,6 +1,7 @@
 0.05
  - Improve doc in EXAMPLE2 section in doc.
  - Rename examples in examples/ directory to better names.
+ - Update copyright years.
 
 0.04 2022-06-01T12:31:02+02:00
  - Fix DEPENDENCIES section in doc.
